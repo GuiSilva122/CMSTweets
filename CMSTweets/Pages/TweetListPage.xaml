@@ -1,0 +1,49 @@
+﻿<Page x:Class="CMSTweets.TweetListPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:CMSTweets"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" 
+      d:DesignWidth="800"
+      Unloaded="Page_Unloaded">
+
+    <Grid Background="#EBEBEB">
+        <Rectangle Height="50" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#1DA1F2" Offset="0.297"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="lblHashTag" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Top" 
+               FontFamily="Arial Black" 
+               FontSize="36" 
+               Foreground="#FFF4FBFB">#</Label>
+        <Button Width="60" 
+                Height="30"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Top"
+                Foreground="#1A91DA" 
+                Margin="0,10,10,0"
+                Background="White" 
+                Click="Button_Click" 
+                BorderThickness="0">
+            <materialDesign:PackIcon Kind="ArrowBack" Width="20" Height="20" />
+        </Button>
+        <Grid Background="#EBEBEB" Height="550" VerticalAlignment="Top" Margin="0,52,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="381*"/>
+                <ColumnDefinition Width="19*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Name="_scrollViewer" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="2">
+                <StackPanel x:Name="stackPanelTweets"  Margin="0,10,0,20" VerticalAlignment="Bottom" RenderTransformOrigin="0.503,1.897">
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>
