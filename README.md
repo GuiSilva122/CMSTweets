@@ -52,7 +52,7 @@ You have two options to deploy the application:
    2. Configure the appsettings.json as in the Configuring section.
    3. Open the CMSTweets.exe file.
 2. You can publish the application in Visual Studio:
-   1. Configure the configure the appsettings.json as in the Configuring section
+   1. Configure the appsettings.json as in the Configuring section.
    2. Select Build > Deploy Solution.
 
 ## Built With
@@ -60,5 +60,3 @@ You have two options to deploy the application:
 * [.Net Core 3.0](https://docs.microsoft.com/en-us/dotnet/core/) - The .Net Core framework
 * [WPF](https://docs.microsoft.com/en-us/dotnet/desktop-wpf/overview/index) - UI framework for desktop client applications for Windows
 * [Tweetinvi](https://github.com/linvi/tweetinvi/wiki/Introduction) - .NET C# library that allows developers to interact with Twitter
-
-
