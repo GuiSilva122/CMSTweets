@@ -41,7 +41,9 @@ Clone the repository to a working folder, navigate to the folder CMSTweets.
 
 Open a solution in Visual Studio.
 
-Run the project (press F5 key).
+### Running
+
+Run the project by pressing F5 key in Visual Studio.
 
 ## Deployment
 
