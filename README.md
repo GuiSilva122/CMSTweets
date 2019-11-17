@@ -47,14 +47,13 @@ Run the project (press F5 key).
 
 You have two options to deploy the application:
 
-1. You can use the folder CMSTweetsPubDependent:
-   *1.1 This folder already contain the application published.
-   *1.2 Configure the appsettings.json as in the Configuring section.
-   *1.3 Open the CMSTweets.exe file.
-
-2) You can publish the application in Visual Studio:
-   2.1 Configure the configure the appsettings.json as in the Configuring section
-   2.2 Select Build > Deploy Solution.
+Markup : 1. You can use the folder CMSTweetsPubDependent:
+            1 This folder already contain the application published.
+            2 Configure the appsettings.json as in the Configuring section.
+            3 Open the CMSTweets.exe file.
+         2. You can publish the application in Visual Studio:
+            1 Configure the configure the appsettings.json as in the Configuring section
+            2 Select Build > Deploy Solution.
 
 ## Built With
 
